@@ -1,0 +1,280 @@
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #404449;
+}
+
+/* .start:hover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #ff0059;
+} */
+
+header #image {
+    vertical-align: middle;
+    height: auto;
+    max-width: 180px;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block ;
+    padding: 5px 10px;
+    margin: 20px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #404449;
+}
+
+.contact {
+    padding: 15px 30px;
+    color:white;
+    background-color: #ff0059;
+    border-radius: 30px;
+    border: 5px solid #ff0059;
+}
+
+.contact:hover {
+    padding: 15px 30px;
+    color: #ff0059;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 3px solid #ff0059;
+}
+
+main {
+    /* box-sizing: border-box;
+    margin: 8px;
+    text-align: center; */
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+    margin: 12px;
+    grid-area: main;
+}
+
+.offshore {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    font-size: 3.5rem;
+    margin-top: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+    width: 50%;
+    color: #212529;
+    opacity: 1;
+}
+
+.wedo {
+    /* display: inline-block;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle; */
+    
+    color: #212529;
+    text-decoration: none;
+    border: 1px;
+    padding: 6px 12px;
+
+    /* display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+
+.ppl {
+    flex: 0 0 50%;
+    max-width: 40%;
+    display: grid;
+}
+
+/* .active {
+    display: grid;
+    grid-template-areas: "main";
+} */
+
+/* -----------------------------------> Software.html <----------------------------------- */
+
+.heading {
+    text-align: center;
+    padding-right: 67%;
+    padding-top: 13.3%;
+}
+
+.soft {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 19%;
+    color: #212529;
+    opacity: 1;
+}
+
+#softdev {
+    font-size: 3.5rem;
+    line-height: 0.9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 1321%;
+}
+
+#softtext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    height: 96px;
+    width: 1080px;
+}
+
+/* -----------------------------------> Infrastructure.html <----------------------------------- */
+
+.heading2 {
+    text-align: center;
+    padding-right: 21%;
+    padding-top: 4%;
+}
+
+.infra {
+    margin-left: 74px;
+    margin-right: 150px;
+    margin-top: 23px;
+    padding-top: 19%;
+    color: #212529;
+    opacity: 1;
+}
+
+#infradev {
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 155%;
+}
+
+#infratext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    height: 96px;
+    width: 1075px;
+}
+
+/* -----------------------------------> Data.html <----------------------------------- */
+
+.heading3 {
+    text-align: center;
+    padding-right: 22%;
+    padding-top: 4.4%;
+}
+
+.data {
+    margin-left: 101px;
+    margin-right: 150px;
+    padding-top: 19%;
+    color: #212529;
+    opacity: 1;
+}
+
+#datadev {
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 154%;
+}
+
+#datatext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    height: 96px;
+    width: 1055px;
+}
+
+/* -----------------------------------> Paradigm.html <----------------------------------- */
+
+.heading4 {
+    text-align: center;
+    padding-right: 44%;
+    padding-top: 8.4%;
+}
+
+.paradigm {
+    margin-left: 112px;
+    margin-right: 150px;
+    padding-top: 19%;
+    color: #212529;
+    opacity: 1;
+}
+
+#paradigmdev {
+    font-size: 3.5rem;
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 279%;
+}
+
+#paradigmtext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    height: 96px;
+    width: 1080px;
+}
+
+/* -----------------------------------> About.html <----------------------------------- */
+
+.cord {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 109px;
+    padding-left: 184px;
+
+}
+
+.entertain {
+    font-size: 3.5rem;
+    margin-top: -0.5rem !important;
+    margin-bottom: 1.5rem !important;
+    width: 50%;
+    color: #212529;
+    opacity: 1;
+    line-height: 1.2;
+}
+
+#magic {
+    line-height: 1.5;
+}
